@@ -9,5 +9,6 @@ node 'robin.puppetlabs.vm' {
   include gms::registry    # uses puppetlabs-registry
   include gms::feature     # uses puppetlabs-dism
   include gms::powershell  # uses puppetlabs-powershell
+  include gms::acl         # uses puppetlabs-acl
 
 }
