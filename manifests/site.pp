@@ -11,4 +11,6 @@ node 'robin.puppetlabs.vm' {
   include gms::powershell  # uses puppetlabs-powershell
   include gms::acl         # uses puppetlabs-acl
 
+  include gms::choco       # uses ceritsc-chocolatey_sw
+                           # and rismoney-chocolatey
 }
