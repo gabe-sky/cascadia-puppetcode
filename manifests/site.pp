@@ -7,5 +7,6 @@ node 'robin.puppetlabs.vm' {
   include gms::service
 
   include gms::registry  # uses puppetlabs-registry
+  include gms::feature   # uses puppetlabs-dism
 
 }
