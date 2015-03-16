@@ -13,7 +13,7 @@ Windows Demo Machine Setup:
 
 In order to have a smooth time on your Windows demo machine, you'll want to prepare a few things before you even start.
 
-Install a Puppet Agent and aim it at the master.  Do a run and make sure it can connect and apply a catalog.
+Install a Puppet Agent and aim it at the master.  You'll likely need to add an entry for the master in your C:\Windows\System32\drivers\etc\hosts file.  Do a run and make sure it can connect and apply a catalog.
 
 Disable the Windows machine's Puppet Agent so that it doesn't run in the background and trip you up.
 
